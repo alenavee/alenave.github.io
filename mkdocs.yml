@@ -57,7 +57,7 @@ nav:
   - Labs (spring 2022):
       - 1. Docker: labs/docker/docker.md
       - 2. DRF Features:
-            - Automated filters: labs/drf_features/autometed_filters.md
+            - Automated filters: labs/drf_features/automated_filters.md
             - Manual filters: labs/drf_features/manual_filters.md
             - Pagination: labs/drf_features/pagination.md
             - Files upload: labs/drf_features/files.md
@@ -70,11 +70,11 @@ nav:
       - 4. Frontend filters: labs/frontend_filters/filters.md
 
   - Coursework:
-        - Introduction: coursework/1-introduction.md
-        - Description: coursework/2-description.md
-        - Process: coursework/3-process.md
-        - Main functionality: coursework/4-main_functionality.md
-        - Conclusion: coursework/5-conclusion.md
+        - Введение: coursework/1-introduction.md
+        - Описание: coursework/2-description.md
+        - Основная часть: coursework/3-process.md
+        - Функциональность и интерфесы: coursework/4-main_functionality.md
+        - Заключение: coursework/5-conclusion.md
 
 
 theme:
