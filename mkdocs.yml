@@ -1,0 +1,81 @@
+site_name: Project Management
+nav:
+  - Home: index.md
+  - Models:
+      - Project: models/project.md
+      - Task: models/task.md
+      - Department: models/department.md
+      - Client: models/client.md
+      - User: models/user.md
+
+  - API:
+      - Project endpoints:
+          - Create project: api/projects/create_project.md
+          - View project info: api/projects/view_project_info.md
+          - Edit project: api/projects/edit_project.md
+          - List all projects: api/projects/list_projects.md
+      - Task endpoints:
+          - Create task: api/tasks/create_task.md
+          - View task info: api/tasks/view_task_info.md
+          - Edit task: api/tasks/edit_task.md
+          - List tasks: api/tasks/list_tasks.md
+      - Department endpoints:
+          - Create department instance: api/departments/create_department.md
+          - View department instance info: api/departments/view_department.md
+          - Add users to department instance: api/departments/add_employee.md
+      - Client endpoints:
+            - Create client: api/client/create_client.md
+            - Edit client: api/clients/edit_client.md
+            - List clients: api/clients/list_clients.md
+      - Authorization: api/authorization.md
+
+  - User Interface:
+      - Home page: user_interface/home/home.md
+      - User Profile:
+          - Sign up: user_interface/employee/sign_up.md
+          - Login: user_interface/employee/login.md
+          - View profile: user_interface/employee/profile.md
+          - Edit profile: user_interface/employee/profile_edit.md
+      - Client info:
+          - Table of clients: user_interface/client/clients_table.md
+          - Add client: user_interface/client/add_client.md
+          - Edit client: user_interface/client/edit_client.md
+      - Department info:
+          - Department table: user_interface/department/department_table.md
+          - Add department: user_interface/department/add_department.md
+      - Project info:
+          - Add project: user_interface/project/add_project.md
+          - Edit project: user_interface/project/edit_project.md
+          - View project: user_interface/project/view_project.md
+          - Table of projects: user_interface/project/projects_table.md
+      - Task info:
+          - Add task: user_interface/task/add_task.md
+          - Edit task: user_interface/task/edit_task.md
+          - View task: user_interface/task/view_task.md
+          - Table of tasks: user_interface/task/tasks_table.md
+
+  - Labs (spring 2022):
+      - 1. Docker: labs/docker/docker.md
+      - 2. DRF Features:
+            - Automated filters: labs/drf_features/autometed_filters.md
+            - Manual filters: labs/drf_features/manual_filters.md
+            - Pagination: labs/drf_features/pagination.md
+            - Files upload: labs/drf_features/files.md
+            - Signals: labs/drf_features/signals.md
+      - 3. Tests:
+            - GET: labs/tests/test_get.md
+            - Models: labs/tests/test_model.md
+            - POST: labs/tests/test_patch.md
+            - PATCH: labs/tests/test_post.md
+      - 4. Frontend filters: labs/frontend_filters/filters.md
+
+  - Coursework:
+        - Introduction: coursework/1-introduction.md
+        - Description: coursework/2-description.md
+        - Process: coursework/3-process.md
+        - Main functionality: coursework/4-main_functionality.md
+        - Conclusion: coursework/5-conclusion.md
+
+
+theme:
+  name: material
