@@ -69,7 +69,7 @@ nav:
             - PATCH: labs/tests/test_post.md
       - 4. Frontend filters: labs/frontend_filters/filters.md
 
-  - Coursework:
+  - Курсовой проект:
         - Введение: coursework/1-introduction.md
         - Описание: coursework/2-description.md
         - Основная часть: coursework/3-process.md
